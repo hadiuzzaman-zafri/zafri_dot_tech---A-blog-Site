@@ -13,3 +13,8 @@ Error:
 unknown at rule @tailwindcss:
     1. open vscode command pallet with shift+command+p
     2. change language mode -> tailwindcss
+
+
+Github Command:
+    git remote add origin git@github.com:hadiuzzaman-zafri/zafri_dot_tech---a-blog-site.git
+    git branch -M main
