@@ -1,0 +1,15 @@
+npm install -D tailwindcss postcss autoprefixer
+    tailwindcss: core tailwindcss framework, provides utility first css classes that you can use to style your page directly in HTML/JSX
+    postcss: This is a tool for transforming CSS with JavaScript plugins
+    autoprefixer: This is a PostCSS plugin that automatically adds vendor prefixes to your CSS, ensuring compatibility with different browsers
+
+
+npx tailwindcss init -p
+    tailwindcss init: This initializes a new Tailwind CSS configuration file
+
+
+Error: 
+
+unknown at rule @tailwindcss:
+    1. open vscode command pallet with shift+command+p
+    2. change language mode -> tailwindcss
