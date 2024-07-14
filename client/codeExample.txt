@@ -18,3 +18,10 @@ unknown at rule @tailwindcss:
 Github Command:
     git remote add origin git@github.com:hadiuzzaman-zafri/zafri_dot_tech---a-blog-site.git
     git branch -M main
+
+
+MongoDb
+
+To connect mongodb in local machine: 
+    1. sudo mongod --dbpath ~/data/db --port 27017
+    2. MONGO=mongodb://localhost:27017/zafridottech (should be the format in .env file)
