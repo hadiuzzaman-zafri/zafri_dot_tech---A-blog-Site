@@ -6,6 +6,7 @@ import Zafri from "./pages/Zafri";
 import Islam from './pages/Islam';
 
 import Header from "./components/Header";
+import FooterCom from "./components/Footer";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/islam" element={<Islam />} />
         <Route path="/home" element={<Home />} />
       </Routes>
+      <FooterCom />
     </BrowserRouter>
   );
 }
